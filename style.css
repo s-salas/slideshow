@@ -1,0 +1,38 @@
+#juice {
+    position: relative;
+    width: 400px;
+    top: -300px;
+    left: -100px;
+}
+
+#motley {
+    position: relative;
+    top: 75px;
+    right: -300px;
+    width: auto;
+    height: 500px;
+}
+
+#squeaks {
+    position: relative;
+    width: 300px;
+    height: auto;
+    bottom: 300px;
+    left: -450px;
+}
+
+#julian {
+    width: 100px;
+}
+
+#margie {
+    width: 100px;
+}
+
+#julian-margie {
+    width: 100px;
+}
+
+#denver {
+    width: 100px;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="style.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<section class="start-section">
+					<button class="start-btn">Start</button>
+				</section>
+				<section>
+					<img src="images/juice.jpg" id="juice">
+					<img src="images/motley.jpeg" id="motley" class="r-frame">
+					<img src="images/squeaks.jpeg" id="squeaks" class="r-frame">
+				</section>
+				<section>
+					<img src="images/julian.jpeg" id="julian" class="r-frame">
+					<img src="images/margie.jpeg" id="margie" class="r-frame">
+					<img src="images/julian-and-margie.jpeg" id="julian-margie" class="r-frame">
+					<img src="images/denver.jpeg" id="denver" class="r-frame">
+				</section>
+				<section>
+					<p class="fragment fade-up">Thank you for attending.</p>
+					<p class="fragment fade-up">No animals were harmed in the making of this presentation.</p>
+					<p class="fragment fade-up">Gymshark is a registered trademark of Gymshark Limited.</p>
+				</section>
+				<section>
+					<a href="../game/index.html">Continue</a>
+				</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

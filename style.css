@@ -2,37 +2,172 @@
     position: relative;
     width: 400px;
     top: -300px;
-    left: -100px;
+    left: 10px;
+}
+
+#stars {
+    position: relative;
+    width: 200px;
+    height: auto;
+    left: -500px;
+    top: -750px;
+}
+
+#rangers {
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -450px;
+    left: -115px;
+}
+
+#paws {
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -999px;
+    left: 175px;
+}
+
+#utsa {
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -275px;
 }
 
 #motley {
     position: relative;
-    top: 75px;
-    right: -300px;
     width: auto;
     height: 500px;
+    top: 10px;
+    right: -300px;
 }
 
 #squeaks {
     position: relative;
     width: 300px;
     height: auto;
-    bottom: 300px;
-    left: -450px;
+    bottom: 325px;
+    left: -100px;
 }
 
 #julian {
-    width: 100px;
+    position: relative;
+    height: 300px;
+    width: auto;
+    top: -100px;
+    left: -300px;
 }
 
 #margie {
-    width: 100px;
+    position: relative;
+    height: 275px;
+    width: auto;
+    top: 250px;
+    left: -500px;
 }
 
 #julian-margie {
-    width: 100px;
+    position: relative;
+    height: 400px;
+    width: auto;
+    left: -400px;
 }
 
 #denver {
+    position: relative;
+    height: 400px;
+    width: auto;
+    top: -150px;
+    right: -800px;
+}
+
+#denver-hockey {
+    position: relative;
+    height: 400px;
+    width: auto;
+    top: -200px;
+    right: -200px;
+}
+
+#denver-motley {
+    position: relative;
+    height: 300px;
+    width: auto;
+    top: -600px;
+    right: -400px;
+}
+
+#denver-sunglasses {
+    position: relative;
+    height: 400px;
+    width: auto;
+}
+
+#heart {
+    position: relative;
     width: 100px;
+    top: -700px;
+    left: -100px;
+}
+
+#heart2 {
+    position: relative;
+    width: 100px;
+    top: -300px;
+    left: -600px;
+}
+
+#payment-landing {
+    position: relative;
+    width: 400px;
+}
+
+#pricing-card {
+    position: relative;
+    width: 400px;
+}
+
+.modal-image {
+    height: 500px;
+    width: auto;
+}
+
+/* Style the modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;    
+    top: -100px;
+    width: 100%; /* Full width */
+    height: 1000px; 
+    background-color: #191919bd;
+}
+
+/* Modal content */
+.modal-content {  
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 10px;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
